@@ -1,4 +1,4 @@
-# CRIAÇÃO DO PROJETO
+# ETAPAS DE CRIAÇÃO DO PROJETO
 
 Criar o arquivo package (dentro da pasta api):
 ### npm init
