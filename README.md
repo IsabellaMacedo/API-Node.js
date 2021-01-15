@@ -16,14 +16,14 @@ Dessa forma, é uma API de Metas, em que é possível cadastrar metas e listar a
 
 ### :pushpin: Como executar esta API (localmente):
 
-#### :heavy_check_mark: Pré Requisitos da máquina:
+#### Pré Requisitos da máquina:
 
 - [x] Instalar o MongoDB;
 - [x] Instalar o Node.JS; 
 - [x] Instalar o Insomnia Core (para utilizar a API);
-- [x] Clonar este repositório e instalar suas dependências ("npm install").
+- [x] Clonar este repositório e instalar suas dependências no diretório ("npm install" instalará "node_modules").
 
-#### :heavy_check_mark: Executar a API:
+#### Executar a API:
 
 
 No terminal da sua máquina, inicie o MongoDb:
@@ -32,11 +32,33 @@ No terminal da sua máquina, inicie o MongoDb:
 mongod
 ```
 
-Depois, abrir outro terminal e executar o comando:
+Depois, abra outro terminal e no diretório execute o comando:
 
 ```
 nodemon app.js
 ```
 
-Caso você não tenha o "nodemon" instalado, instalar (via "npm install -g nodemon") e executar o comando novamente.
+Caso você não tenha o "nodemon" instalado, instale (via "npm install -g nodemon") e execute o comando novamente.
+
+A API estará rodando em http://localhost:8080/metas
+
+
+
+#### Cadastrar Metas (POST):
+
+Abra o Insomnia Core, crie o comando POST no formato JSON, com a seguinte estrutura (exemplo):
+
+{
+	"name" : "Aprender Node.JS",
+	"description": "Estudar todos os dias durante 1 mês.",
+	"status": "Pendente"
+}
+
+Clique em "Send"
+
+
+
+#### Listar Metas (GET):
+
+Enviando o comando GET pelo Insomnia, deverá retornar no formato JSON todas as metas cadastradas.
 
