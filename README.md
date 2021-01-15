@@ -1,6 +1,7 @@
 # API com Node.JS
 
-Projeto feito com Node.JS, na "Semana de Imersão ao Node.js, React e React Native 5.0" <a href="https://celke.com.br/">Celke</a>.
+API criada com Node.JS, que realiza os comandos de GET e POST.
+Dessa forma, é uma API de Metas, em que é possível cadastrar metas e listar as metas cadastradas.
 
 ### :books: Linguagens e libs utilizadas: 
 
@@ -11,4 +12,31 @@ Projeto feito com Node.JS, na "Semana de Imersão ao Node.js, React e React Nati
 - Mongoose;
 - Visual Studio Code;
 - Insomnia Core.
+
+
+### :pushpin: Como executar esta API (localmente):
+
+#### :heavy_check_mark: Pré Requisitos da máquina:
+
+- [x] Instalar o MongoDB;
+- [x] Instalar o Node.JS; 
+- [x] Instalar o Insomnia Core (para utilizar a API);
+- [x] Clonar este repositório e instalar suas dependências ("npm install").
+
+#### :heavy_check_mark: Executar a API:
+
+
+No terminal da sua máquina, inicie o MongoDb:
+
+```
+mongod
+```
+
+Depois, abrir outro terminal e executar o comando:
+
+```
+nodemon app.js
+```
+
+Caso você não tenha o "nodemon" instalado, instalar (via "npm install -g nodemon") e executar o comando novamente.
 
