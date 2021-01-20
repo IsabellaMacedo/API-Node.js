@@ -18,9 +18,9 @@ Dessa forma, é uma API de Metas, em que é possível cadastrar metas e listar a
 
 #### Pré Requisitos da máquina:
 
-- [x] Instalar o MongoDB;
-- [x] Instalar o Node.JS; 
-- [x] Instalar o Insomnia Core (para utilizar a API);
+- [x] MongoDB;
+- [x] Node.JS; 
+- [x] Insomnia Core (para utilizar a API);
 - [x] Clonar este repositório e instalar suas dependências no diretório ("npm install" instalará "node_modules").
 
 #### Executar a API:
